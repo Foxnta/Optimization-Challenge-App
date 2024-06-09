@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #1b1c1c;
+}
+
+.app-header {
+    color: rgb(9, 205, 205);
+    height: 6rem center;
+    line-height: 6rem;
+    font-family: Verdana, sans-serif;
+    display: block;
+    border-bottom: thin lightgrey solid;
+}
+
+.app-header .app-header--title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.app-problema p{
+    margin: 1% 5%;
+    font-size: 2rem;
+    text-align: justify;
+    color: rgb(243, 245, 244);
+    line-height: 2.5rem;
+}
+
+#datatable-upload{
+    font-size: large;
+    width: 30%; 
+    height: 60px;
+    line-height: 60px;
+    border-width: 1px; 
+    border-style: dashed;
+    border-radius: 5px; 
+    text-align: center; 
+    color: rgb(9, 205, 205);
+    margin: 20px auto;
+}
+
+#datatable-upload a{
+    font-weight: bold;
+}
+#datatable-upload-container {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+@media (max-width: 950px) {
+    #datatable-upload{
+        width: 90%;
+    }
+}
+
+.app-preguntas--ol{
+    margin: 2% 5%;
+    font-size: 2rem;
+    text-align: justify;
+    color: rgb(243, 245, 244);
+    line-height: 2.5rem;
+}
+
+.app-preguntas--ol li{
+    margin: 1rem 0;
+    text-align: justify; 
+    line-height: 2.5rem;
+    color: rgb(243, 245, 244);
+}
+

@@ -1,0 +1,6 @@
+dash==2.8.1
+pandas==2.0.3
+pymongo==4.3.3
+python-dotenv==1.0.0
+gunicorn
+dash-tools
